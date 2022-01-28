@@ -1,0 +1,216 @@
+/* css style for my personal-site*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+
+}
+.me {
+    display: inline-block;
+    border-right: 14px solid white;
+}
+
+.upp a {
+    color: black;   
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(153, 68, 68, 0.4);
+    float: right;
+    margin-top: 220px;
+    margin-right: 200px;
+    padding: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 50%;
+    height: 200px;
+}
+.upp a:hover {
+    filter: opacity(30%);
+}
+
+h1 {
+    font-family: courier;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 100px;
+    text-align: center;
+    padding: 0 0;
+    margin: 0 20px;
+}
+
+h2 {
+    font-family: courier;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-align: center; 
+    padding: 0 0;
+    margin: 0 20px;
+}
+
+.first {
+    height: 500px;
+    width: 100%;
+    background-image:url(55.1.jpg);
+}   
+
+.info {
+    list-style-type: none;
+    display: block;
+    margin: 80px;
+    padding: 30px; 
+}
+.info a {
+    color: white;   
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.info li {
+    display: inline;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    margin: 8px;
+    font-family: courier;
+    font-size: 25px;
+    
+}
+
+.info a:hover {
+    filter: opacity(30%);
+}
+.sec {
+    background-color: rgba(235, 229, 229, 0.678);
+    border-radius: 20px;
+    margin: 70px;
+    padding: 40px;
+}
+.sec2 {
+    background-color: rgba(235, 229, 229, 0.678);
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 40px;
+    display: inline-block;
+    width: 500px;
+    height: 700px;
+
+}
+h3 { 
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(153, 68, 68);
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 50px;
+    font-family: monospace;
+}
+
+.utbild li {
+    text-align: left;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.rat {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+.rat a {
+    text-decoration: none;
+    display: hidden;
+
+}
+.rat img:hover {
+    opacity: 50%;
+   
+}
+
+#exam a {
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    background-color: rgb(153, 68, 68);
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    font-family: courier;
+    color: white;
+    border-radius: 5px;
+    margin-left: 450px;
+}
+#exam a:hover {
+    background-color:  rgb(92, 38, 38) ;
+    color: rgba(252, 252, 252, 0.527);
+}
+
+footer p {
+    background-color: black;
+    font-family: courier;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 99%;
+}
+li {
+    margin-bottom: 15px;
+    font-family: courier;
+    font-size: 30px;
+}
+progress {
+    width: 80%;
+    height: 20px;
+    color: rgb(160, 149, 149);
+    background: rgba(153, 68, 68, 0.774);
+    float: right;
+}
+progress::-webkit-progress-bar {
+    background: rgba(206, 207, 212, 0.911);
+}
+progress::-webkit-progress-value {
+    background: rgb(153, 68, 68, 0.774);
+}
+progress::-moz-progress-bar {
+    color: rgb(116, 103, 103);
+    background: rgba(153, 68, 68);
+}
+
+.folow {
+    font-size: 50px;
+    color: rgb(153, 68, 68);
+    font-size: 60px;
+    margin-top: auto;
+    text-align: center;
+    
+}
+.folow a {
+    color: rgb(88, 87, 87);
+}
+.folow a:hover {
+    transform: scale(font-size);
+    font-size: 70px;
+    color: rgb(153, 68, 68);
+}
+
